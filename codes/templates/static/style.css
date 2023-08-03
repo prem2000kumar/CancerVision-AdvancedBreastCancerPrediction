@@ -1,0 +1,126 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gelasio&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Vithkuqi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+
+
+
+header {
+    width: 100%;
+    background-color: #ff90c6;
+    color: #3f133c;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.bg_page {
+    background-size: cover;
+    position: relative;
+    height: 100%;
+}
+
+.bg_text {
+    font-size: large;
+    position: absolute;
+    top: 20%;
+    text-indent: 10%;
+    padding-left: 55%;
+    padding-right: 10%;
+    text-align: justify;
+    font-family: 'Oswald', sans-serif;
+}
+
+.next {
+    height: 100%;
+
+}
+
+.bg_text_1 {
+    font-size: x-large;
+    position: absolute;
+    top: 20%;
+    padding-left: 65%;
+    padding-right: 10%;
+    font-family: 'Oswald', sans-serif;
+}
+
+.bg_text_2 {
+    font-size: larger;
+    position: absolute;
+    top: 25%;
+    padding-left: 70%;
+    padding-right: 10%;
+    font-family: 'Oswald', sans-serif;
+}
+
+.str_bnt_1 {
+    position: absolute;
+    width: 15%;
+    top: 55vh;
+    left: 65%;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background-color: #f7a6cd;
+    font-family: 'Gelasio', serif;
+}
+
+.sel_bnt_2 {
+    font-size: medium;
+    position: absolute;
+    width: 28vh;
+    top: 40vh;
+    left: 144vh;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background-color: #ff9acb;
+    font-family: 'Gelasio', serif;
+}
+.pre_bnt{
+    font-size: large;
+    position: absolute;
+    width: 28vh;
+    top: 80vh;
+    left: 144vh;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background-color: #ff9acb;
+    font-family: 'Gelasio', serif;
+}
+.pre_text {
+    position: absolute;
+    top: 55%;
+    translate: 120vh 30vh;
+    font-size: x-large;
+}
+
+/* Style the custom image preview container */
+.custom-image-preview {
+    position: absolute;
+    top: 21%;
+    translate: 141vh 20vh;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    display: flex;
+}
+.custom-image-preview:hover{
+    border: 4px solid #ffd6e2;
+    border-radius: 20%; 
+    transform: scale(1.1);
+}
+/* Style the image element inside the preview container */
+#imagePreview {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.pre_text {
+    text-align: center;
+    color: #ed4c9a;
+}
